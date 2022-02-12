@@ -1,0 +1,89 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.5.7 (Oracle Corporation Java 17.0.1)
+[debug] Load.defaultLoad until apply took 133.646625ms
+[debug]           Load.loadUnit: plugins took 31.025917ms
+[debug]           Load.loadUnit: defsScala took 0.123542ms
+[debug] [Loading] Scanning directory /Users/noobzik/Documents/ESGI/Auto-Infra/untitled/project
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in /Users/noobzik/Documents/ESGI/Auto-Infra/untitled/project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 7.556584 ms
+[debug]               Load.resolveProject(untitled-build) took 17.8085ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id untitled-build, base: /Users/noobzik/Documents/ESGI/Auto-Infra/untitled/project, plugins: List(<none>))) took 35.247042ms
+[debug] [Loading] Done in /Users/noobzik/Documents/ESGI/Auto-Infra/untitled/project, returning: (untitled-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 43.910958ms
+[debug]           Load.loadUnit: cleanEvalClasses took 0.15325ms
+[debug]         Load.loadUnit(file:/Users/noobzik/Documents/ESGI/Auto-Infra/untitled/project/, ...) took 79.79375ms
+[debug]       Load.apply: load took 459.884708ms
+[debug]       Load.apply: resolveProjects took 2.186208ms
+[debug]       Load.apply: finalTransforms took 25.745791ms
+[debug]       Load.apply: config.delegates took 2.484791ms
+[debug]       Load.apply: Def.make(settings)... took 146.795584ms
+[debug]       Load.apply: structureIndex took 43.423458ms
+[debug]       Load.apply: mkStreams took 0.631292ms
+[info] loading project definition from /Users/noobzik/Documents/ESGI/Auto-Infra/untitled/project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 1033.038166ms
+[debug]     Load.loadUnit: defsScala took 0.001875ms
+[debug] [Loading] Scanning directory /Users/noobzik/Documents/ESGI/Auto-Infra/untitled
+[debug]       Load.loadUnit: mkEval took 2.642791ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in /Users/noobzik/Documents/ESGI/Auto-Infra/untitled, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 0.722125 ms
+[info] loading settings for project untitled from build.sbt ...
+[debug]         Load.resolveProject(untitled) took 1.143708ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id untitled, base: /Users/noobzik/Documents/ESGI/Auto-Infra/untitled, plugins: List(<none>))) took 2.126541ms
+[debug] [Loading] Done in /Users/noobzik/Documents/ESGI/Auto-Infra/untitled, returning: (untitled)
+[debug]     Load.loadUnit: loadedProjectsRaw took 794.589958ms
+[debug]     Load.loadUnit: cleanEvalClasses took 2.535583ms
+[debug]   Load.loadUnit(file:/Users/noobzik/Documents/ESGI/Auto-Infra/untitled/, ...) took 1830.923417ms
+[debug] Load.apply: load took 1838.544375ms
+[debug] Load.apply: resolveProjects took 0.064042ms
+[debug] Load.apply: finalTransforms took 5.969875ms
+[debug] Load.apply: config.delegates took 0.189958ms
+[debug] Load.apply: Def.make(settings)... took 62.747667ms
+[debug] Load.apply: structureIndex took 12.437083ms
+[debug] Load.apply: mkStreams took 0.001708ms
+[info] set current project to untitled (in build file:/Users/noobzik/Documents/ESGI/Auto-Infra/untitled/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(notifyUsersAboutShell, None, None)
+[debug] > Exec(iflast shell, None, None)
+[debug] > Exec(shell, None, None)
+[info] sbt server started at local:///Users/noobzik/.sbt/1.0/server/ba6332ea23468c02baa5/sock
+[debug] Writing bsp connection file
+[info] started sbt server
